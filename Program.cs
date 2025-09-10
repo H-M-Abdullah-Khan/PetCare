@@ -1,10 +1,16 @@
+using Microsoft.EntityFrameworkCore;
+using PetCare.Models;
+using PetCare.Models.Veterinarian;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddMvc();
-
+builder.Services.AddSession();
+builder.Services.AddDbContext<ApplicationContext>(Options =>
+Options.UseSqlServer(builder.Configuration.GetConnectionString("mycon")));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
