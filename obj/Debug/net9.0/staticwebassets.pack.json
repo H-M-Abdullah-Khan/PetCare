@@ -5,6 +5,698 @@
       "PackagePath": "staticwebassets\\PetCare.scxxo831l5.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\css\\app.min.css",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\css\\app.min.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\css\\icons.min.css",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\css\\icons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\css\\vendor.min.css",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\css\\vendor.min.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\fonts\\remixicon44dd.eot",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\fonts\\remixicon44dd.eot"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\fonts\\remixicon44dd.svg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\fonts\\remixicon44dd.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\fonts\\remixicon44dd.ttf",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\fonts\\remixicon44dd.ttf"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\fonts\\remixicon44dd.woff",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\fonts\\remixicon44dd.woff"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\fonts\\remixicon44dd.woff2",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\fonts\\remixicon44dd.woff2"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\fonts\\tabler-icons3026.ttf",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\fonts\\tabler-icons3026.ttf"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\fonts\\tabler-icons3026.woff2",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\fonts\\tabler-icons3026.woff2"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\fonts\\tabler-iconsd41d.woff",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\fonts\\tabler-iconsd41d.woff"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\banner-1.html",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\banner-1.html"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\bg-auth.png",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\bg-auth.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\brands\\amazon.svg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\brands\\amazon.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\brands\\aws.svg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\brands\\aws.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\brands\\bitbucket.svg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\brands\\bitbucket.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\brands\\bootstrap.svg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\brands\\bootstrap.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\brands\\digital-ocean.svg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\brands\\digital-ocean.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\brands\\dribbble.svg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\brands\\dribbble.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\brands\\dropbox.svg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\brands\\dropbox.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\brands\\gitlab.svg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\brands\\gitlab.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\brands\\google-cloud.svg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\brands\\google-cloud.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\brands\\instagram.svg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\brands\\instagram.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\brands\\linkedin.svg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\brands\\linkedin.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\brands\\slack.svg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\brands\\slack.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\cards\\american-express.svg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\cards\\american-express.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\cards\\discover-card.svg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\cards\\discover-card.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\cards\\mastercard.svg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\cards\\mastercard.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\coffee-cup.svg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\coffee-cup.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\error\\error-404.png",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\error\\error-404.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\flags\\de.svg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\flags\\de.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\flags\\es.svg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\flags\\es.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\flags\\in.svg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\flags\\in.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\flags\\it.svg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\flags\\it.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\flags\\ru.svg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\flags\\ru.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\flags\\us.svg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\flags\\us.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\logo-dark.png",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\logo-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\logo-sm.png",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\logo-sm.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\logo.png",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\png\\mail-confirm.png",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\png\\mail-confirm.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\png\\qr-code.png",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\png\\qr-code.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\png\\signature.png",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\png\\signature.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\products\\logo\\logo-1.svg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\products\\logo\\logo-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\products\\logo\\logo-2.svg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\products\\logo\\logo-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\products\\logo\\logo-3.svg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\products\\logo\\logo-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\products\\logo\\logo-4.svg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\products\\logo\\logo-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\products\\logo\\logo-5.svg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\products\\logo\\logo-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\products\\p-1.png",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\products\\p-1.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\products\\p-2.png",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\products\\p-2.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\products\\p-3.png",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\products\\p-3.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\products\\p-4.png",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\products\\p-4.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\products\\p-5.png",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\products\\p-5.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\small\\small-1.jpg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\small\\small-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\small\\small-2.jpg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\small\\small-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\small\\small-3.jpg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\small\\small-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\small\\small-4.jpg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\small\\small-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\small\\small-5.jpg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\small\\small-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\small\\small-6.jpg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\small\\small-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\small\\small-7.jpg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\small\\small-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\users\\avatar-1.jpg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\users\\avatar-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\users\\avatar-10.jpg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\users\\avatar-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\users\\avatar-2.jpg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\users\\avatar-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\users\\avatar-3.jpg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\users\\avatar-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\users\\avatar-4.jpg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\users\\avatar-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\users\\avatar-5.jpg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\users\\avatar-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\users\\avatar-6.jpg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\users\\avatar-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\users\\avatar-7.jpg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\users\\avatar-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\users\\avatar-8.jpg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\users\\avatar-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\images\\users\\avatar-9.jpg",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\images\\users\\avatar-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\app.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\components\\chart-apex-area.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\components\\chart-apex-area.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\components\\chart-apex-bar.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\components\\chart-apex-bar.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\components\\chart-apex-boxplot.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\components\\chart-apex-boxplot.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\components\\chart-apex-bubble.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\components\\chart-apex-bubble.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\components\\chart-apex-candlestick.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\components\\chart-apex-candlestick.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\components\\chart-apex-column.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\components\\chart-apex-column.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\components\\chart-apex-funnel.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\components\\chart-apex-funnel.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\components\\chart-apex-heatmap.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\components\\chart-apex-heatmap.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\components\\chart-apex-line.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\components\\chart-apex-line.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\components\\chart-apex-mixed.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\components\\chart-apex-mixed.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\components\\chart-apex-pie.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\components\\chart-apex-pie.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\components\\chart-apex-polar-area.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\components\\chart-apex-polar-area.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\components\\chart-apex-radar.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\components\\chart-apex-radar.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\components\\chart-apex-radialbar.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\components\\chart-apex-radialbar.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\components\\chart-apex-scatter.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\components\\chart-apex-scatter.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\components\\chart-apex-slope.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\components\\chart-apex-slope.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\components\\chart-apex-sparklines.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\components\\chart-apex-sparklines.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\components\\chart-apex-timeline.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\components\\chart-apex-timeline.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\components\\chart-apex-treemap.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\components\\chart-apex-treemap.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\components\\extended-dragula.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\components\\extended-dragula.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\components\\extended-range-slider.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\components\\extended-range-slider.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\components\\extended-rating.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\components\\extended-rating.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\components\\extended-sweetalerts.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\components\\extended-sweetalerts.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\components\\form-fileupload.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\components\\form-fileupload.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\components\\form-inputmask.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\components\\form-inputmask.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\components\\form-quilljs.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\components\\form-quilljs.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\components\\form-wizard.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\components\\form-wizard.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\components\\maps-google.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\components\\maps-google.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\components\\maps-leaflet.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\components\\maps-leaflet.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\components\\maps-vector.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\components\\maps-vector.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\components\\table-datatable.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\components\\table-datatable.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\components\\table-gridjs.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\components\\table-gridjs.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\config.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\config.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\maps\\canada.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\maps\\canada.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\maps\\in-mill-en.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\maps\\in-mill-en.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\maps\\iraq.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\maps\\iraq.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\maps\\leaflet-data.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\maps\\leaflet-data.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\maps\\russia.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\maps\\russia.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\maps\\spain.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\maps\\spain.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\maps\\us-aea-en.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\maps\\us-aea-en.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\maps\\us-lcc-en.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\maps\\us-lcc-en.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\maps\\us-mill-en.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\maps\\us-mill-en.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\pages\\apps-calendar.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\pages\\apps-calendar.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\pages\\apps-chat.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\pages\\apps-chat.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\pages\\apps-email.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\pages\\apps-email.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\pages\\apps-kanban.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\pages\\apps-kanban.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\pages\\coming-soon.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\pages\\coming-soon.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\pages\\dashboard.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\pages\\dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\pages\\widgets.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\pages\\widgets.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\js\\vendor.min.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\js\\vendor.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\apexcharts\\apexcharts.min.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\apexcharts\\apexcharts.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\datatables\\buttons.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\datatables\\buttons.bootstrap5.min.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\datatables\\buttons.bootstrap5.min.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\datatables\\buttons.bootstrap5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\datatables\\buttons.html5.min.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\datatables\\buttons.html5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\datatables\\buttons.print.min.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\datatables\\buttons.print.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\datatables\\dataTables.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\datatables\\dataTables.bootstrap5.min.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\datatables\\dataTables.bootstrap5.min.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\datatables\\dataTables.bootstrap5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\datatables\\dataTables.buttons.min.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\datatables\\dataTables.buttons.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\datatables\\dataTables.fixedHeader.min.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\datatables\\dataTables.fixedHeader.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\datatables\\dataTables.keyTable.min.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\datatables\\dataTables.keyTable.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\datatables\\dataTables.min.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\datatables\\dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\datatables\\dataTables.responsive.min.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\datatables\\dataTables.responsive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\datatables\\dataTables.select.min.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\datatables\\dataTables.select.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\datatables\\fixedColumns.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\datatables\\fixedColumns.bootstrap5.min.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\datatables\\fixedColumns.bootstrap5.min.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\datatables\\fixedColumns.bootstrap5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\datatables\\fixedHeader.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\datatables\\fixedHeader.bootstrap5.min.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\datatables\\jszip.min.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\datatables\\jszip.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\datatables\\pdfmake.min.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\datatables\\pdfmake.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\datatables\\responsive.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\datatables\\responsive.bootstrap5.min.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\datatables\\responsive.bootstrap5.min.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\datatables\\responsive.bootstrap5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\datatables\\select.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\datatables\\select.bootstrap5.min.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\datatables\\vfs_fonts.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\datatables\\vfs_fonts.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\dragula\\dragula.min.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\dragula\\dragula.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\dropzone\\dropzone-min.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\dropzone\\dropzone-min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\dropzone\\dropzone.css",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\dropzone\\dropzone.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\flatpickr\\flatpickr.min.css",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\flatpickr\\flatpickr.min.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\fullcalendar\\index.global.min.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\fullcalendar\\index.global.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\gmaps\\gmaps.min.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\gmaps\\gmaps.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\gridjs\\gridjs.umd.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\gridjs\\gridjs.umd.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\gridjs\\mermaid.min.css",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\gridjs\\mermaid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\jquery-toast-plugin\\jquery.toast.min.css",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\jquery-toast-plugin\\jquery.toast.min.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\jsvectormap\\jsvectormap.min.css",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\jsvectormap\\jsvectormap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\jsvectormap\\jsvectormap.min.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\jsvectormap\\jsvectormap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\jsvectormap\\world-merc.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\jsvectormap\\world-merc.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\jsvectormap\\world.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\jsvectormap\\world.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\leaflet\\images\\layers-2x.png",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\leaflet\\images\\layers-2x.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\leaflet\\images\\layers.png",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\leaflet\\images\\layers.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\leaflet\\images\\marker-icon.png",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\leaflet\\images\\marker-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\leaflet\\leaflet.css",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\leaflet\\leaflet.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\leaflet\\leaflet.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\leaflet\\leaflet.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\moment\\moment.min.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\moment\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\nouislider\\nouislider.min.css",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\nouislider\\nouislider.min.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\nouislider\\nouislider.min.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\nouislider\\nouislider.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\quill\\quill.bubble.css",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\quill\\quill.bubble.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\quill\\quill.core.css",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\quill\\quill.core.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\quill\\quill.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\quill\\quill.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\quill\\quill.snow.css",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\quill\\quill.snow.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\rater-js\\index.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\rater-js\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\sweetalert2\\sweetalert2.min.css",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\sweetalert2\\sweetalert2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\sweetalert2\\sweetalert2.min.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\sweetalert2\\sweetalert2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\vanilla-wizard\\wizard.min.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\vanilla-wizard\\wizard.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\Dashboard\\assets\\vendor\\wnumb\\wNumb.min.js",
+      "PackagePath": "staticwebassets\\Dashboard\\assets\\vendor\\wnumb\\wNumb.min.js"
+    },
+    {
       "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -15,6 +707,1330 @@
     {
       "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\css\\animate.css",
+      "PackagePath": "staticwebassets\\layoutasset\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\layoutasset\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\css\\c_hover.css",
+      "PackagePath": "staticwebassets\\layoutasset\\css\\c_hover.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\css\\color-switcher-design.css",
+      "PackagePath": "staticwebassets\\layoutasset\\css\\color-switcher-design.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\css\\color-themes\\blue-theme.css",
+      "PackagePath": "staticwebassets\\layoutasset\\css\\color-themes\\blue-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\css\\color-themes\\brown-theme.css",
+      "PackagePath": "staticwebassets\\layoutasset\\css\\color-themes\\brown-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\css\\color-themes\\default-theme.css",
+      "PackagePath": "staticwebassets\\layoutasset\\css\\color-themes\\default-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\css\\color-themes\\green-theme.css",
+      "PackagePath": "staticwebassets\\layoutasset\\css\\color-themes\\green-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\css\\color-themes\\orange-theme.css",
+      "PackagePath": "staticwebassets\\layoutasset\\css\\color-themes\\orange-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\css\\color-themes\\purple-theme.css",
+      "PackagePath": "staticwebassets\\layoutasset\\css\\color-themes\\purple-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\css\\color-themes\\redd-color.css",
+      "PackagePath": "staticwebassets\\layoutasset\\css\\color-themes\\redd-color.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\css\\color-themes\\teal-theme.css",
+      "PackagePath": "staticwebassets\\layoutasset\\css\\color-themes\\teal-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\css\\flaticon.css",
+      "PackagePath": "staticwebassets\\layoutasset\\css\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\css\\flexslider.css",
+      "PackagePath": "staticwebassets\\layoutasset\\css\\flexslider.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\css\\float.css",
+      "PackagePath": "staticwebassets\\layoutasset\\css\\float.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\layoutasset\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\css\\fontawesome-all.css",
+      "PackagePath": "staticwebassets\\layoutasset\\css\\fontawesome-all.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\css\\fonts\\flexslider-icon.eot",
+      "PackagePath": "staticwebassets\\layoutasset\\css\\fonts\\flexslider-icon.eot"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\css\\fonts\\flexslider-icon.svg",
+      "PackagePath": "staticwebassets\\layoutasset\\css\\fonts\\flexslider-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\css\\fonts\\flexslider-icon.ttf",
+      "PackagePath": "staticwebassets\\layoutasset\\css\\fonts\\flexslider-icon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\css\\fonts\\flexslider-icon.woff",
+      "PackagePath": "staticwebassets\\layoutasset\\css\\fonts\\flexslider-icon.woff"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\css\\fonts\\flexslider-icond41d.eot",
+      "PackagePath": "staticwebassets\\layoutasset\\css\\fonts\\flexslider-icond41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\css\\hover.css",
+      "PackagePath": "staticwebassets\\layoutasset\\css\\hover.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\css\\imagehover.css",
+      "PackagePath": "staticwebassets\\layoutasset\\css\\imagehover.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\css\\images\\ui-icons_777620_256x240.html",
+      "PackagePath": "staticwebassets\\layoutasset\\css\\images\\ui-icons_777620_256x240.html"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\css\\images\\ui-icons_777777_256x240.html",
+      "PackagePath": "staticwebassets\\layoutasset\\css\\images\\ui-icons_777777_256x240.html"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\css\\images\\ui-icons_cc0000_256x240.html",
+      "PackagePath": "staticwebassets\\layoutasset\\css\\images\\ui-icons_cc0000_256x240.html"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\css\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\layoutasset\\css\\jquery-ui.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\css\\jquery.fancybox.min.css",
+      "PackagePath": "staticwebassets\\layoutasset\\css\\jquery.fancybox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\css\\owl.css",
+      "PackagePath": "staticwebassets\\layoutasset\\css\\owl.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\css\\owl.video.play.html",
+      "PackagePath": "staticwebassets\\layoutasset\\css\\owl.video.play.html"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\layoutasset\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\css\\style.css",
+      "PackagePath": "staticwebassets\\layoutasset\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\fonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\layoutasset\\fonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\fonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\layoutasset\\fonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\fonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\layoutasset\\fonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\fonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\layoutasset\\fonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\fonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\layoutasset\\fonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\fonts\\fa-brands-400d41d.eot",
+      "PackagePath": "staticwebassets\\layoutasset\\fonts\\fa-brands-400d41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\fonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\layoutasset\\fonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\fonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\layoutasset\\fonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\fonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\layoutasset\\fonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\fonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\layoutasset\\fonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\fonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\layoutasset\\fonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\fonts\\fa-regular-400d41d.eot",
+      "PackagePath": "staticwebassets\\layoutasset\\fonts\\fa-regular-400d41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\fonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\layoutasset\\fonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\fonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\layoutasset\\fonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\fonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\layoutasset\\fonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\fonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\layoutasset\\fonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\fonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\layoutasset\\fonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\fonts\\fa-solid-900d41d.eot",
+      "PackagePath": "staticwebassets\\layoutasset\\fonts\\fa-solid-900d41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\fonts\\flaticon.eot",
+      "PackagePath": "staticwebassets\\layoutasset\\fonts\\flaticon.eot"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\fonts\\flaticon.svg",
+      "PackagePath": "staticwebassets\\layoutasset\\fonts\\flaticon.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\fonts\\flaticon.ttf",
+      "PackagePath": "staticwebassets\\layoutasset\\fonts\\flaticon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\fonts\\flaticon.woff",
+      "PackagePath": "staticwebassets\\layoutasset\\fonts\\flaticon.woff"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\fonts\\flaticond41d.eot",
+      "PackagePath": "staticwebassets\\layoutasset\\fonts\\flaticond41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\fonts\\fontawesome-webfont914c.eot",
+      "PackagePath": "staticwebassets\\layoutasset\\fonts\\fontawesome-webfont914c.eot"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\fonts\\fontawesome-webfont914c.svg",
+      "PackagePath": "staticwebassets\\layoutasset\\fonts\\fontawesome-webfont914c.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\fonts\\fontawesome-webfont914c.ttf",
+      "PackagePath": "staticwebassets\\layoutasset\\fonts\\fontawesome-webfont914c.ttf"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\fonts\\fontawesome-webfont914c.woff",
+      "PackagePath": "staticwebassets\\layoutasset\\fonts\\fontawesome-webfont914c.woff"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\fonts\\fontawesome-webfont914c.woff2",
+      "PackagePath": "staticwebassets\\layoutasset\\fonts\\fontawesome-webfont914c.woff2"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\fonts\\fontawesome-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\layoutasset\\fonts\\fontawesome-webfontd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\background\\11.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\background\\11.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\background\\2.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\background\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\background\\3.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\background\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\background\\3.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\background\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\background\\4.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\background\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\background\\5.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\background\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\background\\7.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\background\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\background\\8.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\background\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\background\\appointment.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\background\\appointment.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\background\\experienced-bg.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\background\\experienced-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\background\\layer-1.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\background\\layer-1.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\background\\layer-2.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\background\\layer-2.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\background\\news-1.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\background\\news-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\background\\news-2.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\background\\news-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\background\\news-3.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\background\\news-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\background\\news-bg.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\background\\news-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\background\\pattern-1.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\background\\pattern-1.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\background\\pattern-2.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\background\\pattern-2.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\background\\pattern-3.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\background\\pattern-3.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\background\\pattern-4.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\background\\pattern-4.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\background\\pattern-5.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\background\\pattern-5.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\first-aid-kit.svg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\first-aid-kit.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\footer-logo-2.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\footer-logo-2.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\footer-logo.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\footer-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\gallery\\1.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\gallery\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\gallery\\2.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\gallery\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\gallery\\3.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\gallery\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\gallery\\4.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\gallery\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\gallery\\5.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\gallery\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\gallery\\6.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\gallery\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\animal.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\animal.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\app-bg.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\app-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\back-image3-(3.html",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\back-image3-(3.html"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\ball.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\ball.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\bottom_wave.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\bottom_wave.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\bowl4.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\bowl4.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\bowl5.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\bowl5.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\bowl6.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\bowl6.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\bowl7.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\bowl7.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\cross-out.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\cross-out.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\cta-2-dot-1.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\cta-2-dot-1.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\customer-1.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\customer-1.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\customer-2.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\customer-2.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\customer-3.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\customer-3.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\dog-in-house.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\dog-in-house.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\dots.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\dots.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\event-1.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\event-1.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\event-2.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\event-2.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\event-3-post.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\event-3-post.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\event-3.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\event-3.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\event-4-post.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\event-4-post.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\event-4.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\event-4.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\event-5-post.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\event-5-post.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\event-5.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\event-5.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\event-6.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\event-6.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\event-bg.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\event-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\faq_bg.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\faq_bg.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\frisbee.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\frisbee.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\img-1.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\img-1.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\img-2.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\img-2.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\news-1.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\news-1.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\news-2.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\news-2.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\news-3.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\news-3.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\news-4.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\news-4.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\news-5.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\news-5.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\news-6.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\news-6.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\pattern-11(2.html",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\pattern-11(2.html"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\pattern-14(2.html",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\pattern-14(2.html"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\pattern-2.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\pattern-2.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\pattern-8(2.html",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\pattern-8(2.html"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\pattern-9.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\pattern-9.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\pet-1.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\pet-1.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\pet-2.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\pet-2.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\pet-3.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\pet-3.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\pet-4.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\pet-4.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\pet-5.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\pet-5.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\pet-6.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\pet-6.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\pet-profile.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\pet-profile.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\pet-profile1.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\pet-profile1.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\pet-profile2.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\pet-profile2.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\pet-profile3.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\pet-profile3.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\pet-profile4.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\pet-profile4.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\pet-profile5.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\pet-profile5.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\pet-profile6.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\pet-profile6.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\pet_banner.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\pet_banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\pets.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\pets.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\preloader.gif",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\preloader.gif"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\product-1.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\product-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\product-2.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\product-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\product-3.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\product-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\product-4.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\product-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\product-5.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\product-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\product-6.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\product-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\product-7.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\product-7.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\reviewer-1.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\reviewer-1.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\reviewer-2.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\reviewer-2.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\reviewer-3.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\reviewer-3.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\service-1.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\service-1.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\service-2.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\service-2.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\service-3.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\service-3.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\service-4.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\service-4.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\service-5.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\service-5.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\service-6.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\service-6.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\svg\\pet_adoption.svg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\svg\\pet_adoption.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\svg\\pet_care.svg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\svg\\pet_care.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\svg\\pet_daycare.svg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\svg\\pet_daycare.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\svg\\pet_donation.svg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\svg\\pet_donation.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\svg\\pet_food.svg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\svg\\pet_food.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\svg\\pet_grooming.svg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\svg\\pet_grooming.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\svg\\pet_heal.svg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\svg\\pet_heal.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\svg\\pet_health.svg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\svg\\pet_health.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\svg\\pet_location.svg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\svg\\pet_location.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\svg\\pet_mail.svg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\svg\\pet_mail.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\svg\\pet_phone.svg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\svg\\pet_phone.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\svg\\pet_shelter.svg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\svg\\pet_shelter.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\svg\\pet_sitting.svg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\svg\\pet_sitting.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\svg\\pet_support.svg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\svg\\pet_support.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\svg\\pet_training.svg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\svg\\pet_training.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\team-1.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\team-1.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\team-2.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\team-2.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\team-3.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\team-3.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\home_5\\waves-shape.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\home_5\\waves-shape.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\icons\\counter-1.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\icons\\counter-1.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\icons\\counter-2.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\icons\\counter-2.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\icons\\counter-3.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\icons\\counter-3.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\icons\\counter-4.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\icons\\counter-4.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\icons\\icon-1.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\icons\\icon-1.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\icons\\icon-2.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\icons\\icon-2.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\icons\\icon-3.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\icons\\icon-3.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\icons\\icon-cross.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\icons\\icon-cross.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\icons\\map-marker.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\icons\\map-marker.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\icons\\preloader.gif",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\icons\\preloader.gif"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\icons\\price-bg.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\icons\\price-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\icons\\price-icon.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\icons\\price-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\icons\\separater-line.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\icons\\separater-line.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\icons\\tick.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\icons\\tick.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\icons\\title-icon.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\icons\\title-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\logo-2.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\logo-2.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\logo-3.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\logo-3.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\logo-small.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\logo-small.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\logo.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\main-slider\\image-1.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\main-slider\\image-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\main-slider\\image-2.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\main-slider\\image-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\main-slider\\image-3.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\main-slider\\image-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\main-slider\\image-4.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\main-slider\\image-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\author-1.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\author-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\author-2.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\author-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\author-3.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\author-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\cat1.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\cat1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\cat2.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\cat2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\cat3.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\cat3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\cat4.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\cat4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\dog.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\dog.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\experience-1.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\experience-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\experience-2.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\experience-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\experience-3.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\experience-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\experience-4.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\experience-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\featured-bg.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\featured-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\features-bg.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\features-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\health-care.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\health-care.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\history.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\history.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\icon-1.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\icon-1.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\icon-2.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\icon-2.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\icon-3.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\icon-3.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\image-1.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\image-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\image-2.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\image-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\image-3.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\image-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\news-1.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\news-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\news-10.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\news-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\news-11.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\news-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\news-2.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\news-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\news-3.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\news-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\news-4.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\news-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\news-5.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\news-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\news-6.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\news-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\news-7.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\news-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\news-8.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\news-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\news-9.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\news-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\pet-1.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\pet-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\pet-2.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\pet-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\pet-3.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\pet-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\pet-4.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\pet-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\pet-5.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\pet-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\pet-6.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\pet-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\post-thumb-1.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\post-thumb-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\post-thumb-2.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\post-thumb-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\post-thumb-3.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\post-thumb-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\post-thumb-4.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\post-thumb-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\post-thumb-5.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\post-thumb-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\product-1.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\product-1.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\products\\1.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\products\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\products\\10.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\products\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\products\\11.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\products\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\products\\12.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\products\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\products\\2.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\products\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\products\\3.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\products\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\products\\4.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\products\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\products\\5.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\products\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\products\\6.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\products\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\products\\7.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\products\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\products\\8.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\products\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\products\\9.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\products\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\services-1.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\services-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\services-2.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\services-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\services-3.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\services-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\services-4.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\services-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\services-5.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\services-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\services-6.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\services-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\services-image-1.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\services-image-1.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\signature.png",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\signature.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\team-1.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\team-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\team-2.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\team-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\team-3.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\team-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\team-4.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\team-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\thumb-1.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\thumb-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\thumb-2.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\thumb-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\thumb-3.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\thumb-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\thumb-4.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\thumb-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\thumb-5.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\thumb-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\thumb-6.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\thumb-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\welcome-4.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\welcome-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\resource\\welcome.jpg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\resource\\welcome.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\images\\syringe.svg",
+      "PackagePath": "staticwebassets\\layoutasset\\images\\syringe.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\js\\appear.js",
+      "PackagePath": "staticwebassets\\layoutasset\\js\\appear.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\layoutasset\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\js\\color-settings.js",
+      "PackagePath": "staticwebassets\\layoutasset\\js\\color-settings.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\js\\gallery.js",
+      "PackagePath": "staticwebassets\\layoutasset\\js\\gallery.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\js\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\layoutasset\\js\\jquery-ui.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\js\\jquery.countdown.js",
+      "PackagePath": "staticwebassets\\layoutasset\\js\\jquery.countdown.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\js\\jquery.fancybox.js",
+      "PackagePath": "staticwebassets\\layoutasset\\js\\jquery.fancybox.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\js\\jquery.flexslider.js",
+      "PackagePath": "staticwebassets\\layoutasset\\js\\jquery.flexslider.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\layoutasset\\js\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\js\\main-slider-script.js",
+      "PackagePath": "staticwebassets\\layoutasset\\js\\main-slider-script.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\js\\map-script.js",
+      "PackagePath": "staticwebassets\\layoutasset\\js\\map-script.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\js\\mixitup.js",
+      "PackagePath": "staticwebassets\\layoutasset\\js\\mixitup.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\js\\mousewheel.js",
+      "PackagePath": "staticwebassets\\layoutasset\\js\\mousewheel.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\layoutasset\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\js\\owl.js",
+      "PackagePath": "staticwebassets\\layoutasset\\js\\owl.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\js\\script.js",
+      "PackagePath": "staticwebassets\\layoutasset\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\js\\validate.js",
+      "PackagePath": "staticwebassets\\layoutasset\\js\\validate.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\js\\vivus.min.js",
+      "PackagePath": "staticwebassets\\layoutasset\\js\\vivus.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\js\\wow.min.js",
+      "PackagePath": "staticwebassets\\layoutasset\\js\\wow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\plugins\\revolution\\assets\\coloredbg.png",
+      "PackagePath": "staticwebassets\\layoutasset\\plugins\\revolution\\assets\\coloredbg.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\plugins\\revolution\\assets\\gridtile.png",
+      "PackagePath": "staticwebassets\\layoutasset\\plugins\\revolution\\assets\\gridtile.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\plugins\\revolution\\assets\\gridtile_3x3.png",
+      "PackagePath": "staticwebassets\\layoutasset\\plugins\\revolution\\assets\\gridtile_3x3.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\plugins\\revolution\\assets\\gridtile_3x3_white.png",
+      "PackagePath": "staticwebassets\\layoutasset\\plugins\\revolution\\assets\\gridtile_3x3_white.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\plugins\\revolution\\assets\\gridtile_white.png",
+      "PackagePath": "staticwebassets\\layoutasset\\plugins\\revolution\\assets\\gridtile_white.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\plugins\\revolution\\assets\\loader.gif",
+      "PackagePath": "staticwebassets\\layoutasset\\plugins\\revolution\\assets\\loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\plugins\\revolution\\css\\closedhand.html",
+      "PackagePath": "staticwebassets\\layoutasset\\plugins\\revolution\\css\\closedhand.html"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\plugins\\revolution\\css\\layers.css",
+      "PackagePath": "staticwebassets\\layoutasset\\plugins\\revolution\\css\\layers.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\plugins\\revolution\\css\\navigation.css",
+      "PackagePath": "staticwebassets\\layoutasset\\plugins\\revolution\\css\\navigation.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\plugins\\revolution\\css\\openhand.html",
+      "PackagePath": "staticwebassets\\layoutasset\\plugins\\revolution\\css\\openhand.html"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\plugins\\revolution\\css\\settings.css",
+      "PackagePath": "staticwebassets\\layoutasset\\plugins\\revolution\\css\\settings.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\plugins\\revolution\\fonts\\revicons\\revicons90c6.eot",
+      "PackagePath": "staticwebassets\\layoutasset\\plugins\\revolution\\fonts\\revicons\\revicons90c6.eot"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\plugins\\revolution\\fonts\\revicons\\revicons90c6.svg",
+      "PackagePath": "staticwebassets\\layoutasset\\plugins\\revolution\\fonts\\revicons\\revicons90c6.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\plugins\\revolution\\fonts\\revicons\\revicons90c6.ttf",
+      "PackagePath": "staticwebassets\\layoutasset\\plugins\\revolution\\fonts\\revicons\\revicons90c6.ttf"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\plugins\\revolution\\fonts\\revicons\\revicons90c6.woff",
+      "PackagePath": "staticwebassets\\layoutasset\\plugins\\revolution\\fonts\\revicons\\revicons90c6.woff"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\plugins\\revolution\\js\\extensions\\revolution.extension.actions.min.js",
+      "PackagePath": "staticwebassets\\layoutasset\\plugins\\revolution\\js\\extensions\\revolution.extension.actions.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\plugins\\revolution\\js\\extensions\\revolution.extension.carousel.min.js",
+      "PackagePath": "staticwebassets\\layoutasset\\plugins\\revolution\\js\\extensions\\revolution.extension.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\plugins\\revolution\\js\\extensions\\revolution.extension.kenburn.min.js",
+      "PackagePath": "staticwebassets\\layoutasset\\plugins\\revolution\\js\\extensions\\revolution.extension.kenburn.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\plugins\\revolution\\js\\extensions\\revolution.extension.layeranimation.min.js",
+      "PackagePath": "staticwebassets\\layoutasset\\plugins\\revolution\\js\\extensions\\revolution.extension.layeranimation.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\plugins\\revolution\\js\\extensions\\revolution.extension.migration.min.js",
+      "PackagePath": "staticwebassets\\layoutasset\\plugins\\revolution\\js\\extensions\\revolution.extension.migration.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\plugins\\revolution\\js\\extensions\\revolution.extension.navigation.min.js",
+      "PackagePath": "staticwebassets\\layoutasset\\plugins\\revolution\\js\\extensions\\revolution.extension.navigation.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\plugins\\revolution\\js\\extensions\\revolution.extension.parallax.min.js",
+      "PackagePath": "staticwebassets\\layoutasset\\plugins\\revolution\\js\\extensions\\revolution.extension.parallax.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\plugins\\revolution\\js\\extensions\\revolution.extension.slideanims.min.js",
+      "PackagePath": "staticwebassets\\layoutasset\\plugins\\revolution\\js\\extensions\\revolution.extension.slideanims.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\plugins\\revolution\\js\\extensions\\revolution.extension.video.min.js",
+      "PackagePath": "staticwebassets\\layoutasset\\plugins\\revolution\\js\\extensions\\revolution.extension.video.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\plugins\\revolution\\js\\jquery.themepunch.revolution.min.js",
+      "PackagePath": "staticwebassets\\layoutasset\\plugins\\revolution\\js\\jquery.themepunch.revolution.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\layoutasset\\plugins\\revolution\\js\\jquery.themepunch.tools.min.js",
+      "PackagePath": "staticwebassets\\layoutasset\\plugins\\revolution\\js\\jquery.themepunch.tools.min.js"
     },
     {
       "Id": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\wwwroot\\lib\\bootstrap\\LICENSE",
