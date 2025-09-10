@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿
+
+<!DOCTYPE html>
 <html lang="en">
 
 
@@ -26,7 +28,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
-    <!--[if lt IE 9]><script src="~layoutasset/js/respond.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="~/layoutasset/js/respond.js"></script><![endif]-->
 </head>
 
 <body>
@@ -81,7 +83,7 @@
             <div class="header-upper">
                 <div class="auto-container clearfix">
                     <div class="pull-left logo-outer">
-                        <div class="logo"><a href="index.html"><img src="images/logo.png" alt="" title=""></a></div>
+                        <div class="logo"><a href="index.html"><img src="~/layoutasset/images/logo.png" alt="" title=""></a></div>
                     </div>
                     <div class="pull-right upper-right clearfix">
                         <div class="nav-outer clearfix">
@@ -97,120 +99,36 @@
                                 <div class="navbar-collapse collapse clearfix">
                                     <ul class="navigation clearfix">
                                         <li class="current dropdown">
-                                            <a href="#">Home</a>
-                                            <ul>
-                                                <li><a href="index.html">Home 01</a></li>
-                                                <li><a href="index-2.html">Home 02</a></li>
-                                                <li><a href="index-3.html">Home 03</a></li>
-                                                <li><a href="index-4.html">Home 04</a></li>
-                                                <li><a href="index-5.html">Home 05</a></li>
-                                                <li class="dropdown">
-                                                    <a href="#">Header Styles</a>
-                                                    <ul>
-                                                        <li><a href="index.html">Header 01</a></li>
-                                                        <li><a href="index-2.html">Header 02</a></li>
-                                                        <li><a href="index-3.html">Header 03</a></li>
-                                                        <li><a href="index-4.html">Header 04</a></li>
-                                                        <li><a href="index-5.html">Header 05</a></li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
+                                            <a asp-controller="Home" asp-action="Index">Home</a>
                                         </li>
                                         <li class="dropdown">
-                                            <a href="about.html">About</a>
-                                            <ul>
-                                                <li><a href="about-2.html">About 2</a></li>
-                                                <li><a href="about-pet.html">About 3</a></li>
-                                                <li><a href="about-pet2.html">About 4</a></li>
-                                            </ul>
+                                            <a asp-controller="Home" asp-action="About">About</a>
                                         </li>
                                         <li class="dropdown">
-                                            <a href="services.html">Services</a>
-                                            <ul>
-                                                <li><a href="pet-service.html">Services 01</a></li>
-                                            </ul>
+                                            <a asp-controller="Home" asp-action="Services">Services</a>
                                         </li>
                                         <li class="dropdown">
-                                            <a href="pets.html">Pets</a>
-                                            <ul>
-                                                <li><a href="buy-pet.html">Pets 01</a></li>
-                                                <li><a href="pet-detail.html">Pet Detail</a></li>
-                                                <li><a href="pet-profile.html">Pet Detail 02</a></li>
-                                            </ul>
+                                            <a asp-controller="Home" asp-action="Shop">Shop</a>
                                         </li>
                                         <li class="dropdown">
-                                            <a href="#">Shop</a>
-                                            <ul>
-                                                <li><a href="shop.html">Shop</a></li>
-                                                <li><a href="pet-shop.html">Shop 01</a></li>
-                                                <li><a href="product-details.html">Product Detail</a></li>
-                                                <li><a href="pet-product.html">Product Detail 01</a></li>
-                                                <li><a href="cart.html">Cart</a></li>
-                                                <li><a href="pet-cart.html">Cart 01</a></li>
-                                                <li><a href="checkout.html">Check Out</a></li>
-                                                <li><a href="pet-checkout.html">Check Out 01</a></li>
-                                            </ul>
+                                            <a asp-controller="Home" asp-action="AddtoCart">AddtoCart</a>
+
                                         </li>
                                         <li class="dropdown">
-                                            <a href="#">Pages</a>
-                                            <ul>
-                                                <li><a href="gallery.html">Gallery</a></li>
-                                                <li><a href="gallery-2.html">Gallery 02</a></li>
-                                                <li><a href="pet-gallery.html">Gallery 03</a></li>
-                                                <li><a href="pet-gallery2.html">Gallery 04</a></li>
-                                                <li><a href="404.html">Error</a></li>
-                                                <li><a href="pet-error.html">Error 01</a></li>
-                                                <li><a href="commingsoon.html">Comming Soon</a></li>
-                                                <li><a href="pet-coming.html">Comming Soon 01</a></li>
-                                                <li><a href="donation.html">Donation</a></li>
-                                                <li><a href="pet-donate.html">Donation 01</a></li>
-                                                <li><a href="appointment.html">Appointment</a></li>
-                                                <li><a href="pet-appoint.html">Appointment 01</a></li>
-                                            </ul>
+                                            <a asp-controller="Home" asp-action="Gallery">Gallery</a>
+
                                         </li>
                                         <li class="dropdown">
-                                            <a href="#">Special Pages</a>
-                                            <ul>
-                                                <li><a href="jobs-list.html">Jobs</a></li>
-                                                <li><a href="pet-job.html">Jobs 01</a></li>
-                                                <li><a href="job-details.html">Job Detail</a></li>
-                                                <li><a href="job-profile.html">Job Detail 01</a></li>
-                                                <li><a href="login.html">Login</a></li>
-                                                <li><a href="pet-login.html">Login 01</a></li>
-                                                <li><a href="register.html">Register</a></li>
-                                                <li><a href="pet-register.html">Register 01</a></li>
-                                                <li><a href="team.html">Team</a></li>
-                                                <li><a href="pet-team.html">Team 01</a></li>
-                                                <li><a href="team-detail.html">Team Detail</a></li>
-                                                <li><a href="team-profile.html">Team Detail 01</a></li>
-                                                <li><a href="events.html">Events</a></li>
-                                                <li><a href="pet-event.html">Events 01</a></li>
-                                                <li><a href="event-single.html">Event Detail</a></li>
-                                                <li><a href="event-profile.html">Event Detail 01</a></li>
-                                                <li><a href="calculator.html">Calories Calculator</a></li>
-                                                <li><a href="pet-calorie.html">Calories Calculator 01</a></li>
-                                            </ul>
+                                            <a asp-controller="Home" asp-action="AdoptPets">AdoptPets</a>
+
                                         </li>
                                         <li class="dropdown">
-                                            <a href="#">Blog</a>
-                                            <ul>
-                                                <li><a href="blog.html">Our Blog</a></li>
-                                                <li><a href="blog2.html">Blog 02</a></li>
-                                                <li><a href="pet-blog.html">Blog 03</a></li>
-                                                <li><a href="pet-blog2.html">Blog 04</a></li>
-                                                <li><a href="blog-leftsidebar.html">Blog Right Sidebar</a></li>
-                                                <li><a href="pet-blog-right.html">Blog Right Sidebar 01</a></li>
-                                                <li><a href="blog-single.html">Blog Single</a></li>
-                                                <li><a href="blog-profile.html">Blog Single 01</a></li>
-                                            </ul>
+                                            <a asp-controller="Home" asp-action="Contact">Contact</a>
+                                           
                                         </li>
                                         <li class="dropdown">
                                             <a href="contact.html">Contact</a>
-                                            <ul>
-                                                <li><a href="contact2.html">Contact 02</a></li>
-                                                <li><a href="pet-contact.html">Contact 03</a></li>
-                                                <li><a href="pet-contact2.html">Contact 04</a></li>
-                                            </ul>
+                                           
                                         </li>
                                     </ul>
                                 </div>
@@ -252,7 +170,7 @@
                     <!--Logo-->
                     <div class="logo pull-left">
                         <a href="index.html" class="img-responsive">
-                            <img src="images/logo-small.png" alt=""
+                            <img src="~/layoutasset/images/logo-small.png" alt=""
                                  title="">
                         </a>
                     </div>
@@ -272,120 +190,40 @@
                             <div class="navbar-collapse collapse clearfix">
                                 <ul class="navigation clearfix">
                                     <li class="current dropdown">
-                                        <a href="#">Home</a>
-                                        <ul>
-                                            <li><a href="index.html">Home 01</a></li>
-                                            <li><a href="index-2.html">Home 02</a></li>
-                                            <li><a href="index-3.html">Home 03</a></li>
-                                            <li><a href="index-4.html">Home 04</a></li>
-                                            <li><a href="index-5.html">Home 05</a></li>
-                                            <li class="dropdown">
-                                                <a href="#">Header Styles</a>
-                                                <ul>
-                                                    <li><a href="index.html">Header 01</a></li>
-                                                    <li><a href="index-2.html">Header 02</a></li>
-                                                    <li><a href="index-3.html">Header 03</a></li>
-                                                    <li><a href="index-4.html">Header 04</a></li>
-                                                    <li><a href="index-5.html">Header 05</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
+                                        <a asp-controller="Home" asp-action="Index">Home</a>
+
                                     </li>
                                     <li class="dropdown">
-                                        <a href="about.html">About</a>
-                                        <ul>
-                                            <li><a href="about-2.html">About 2</a></li>
-                                            <li><a href="about-pet.html">About 3</a></li>
-                                            <li><a href="about-pet2.html">About 4</a></li>
-                                        </ul>
+                                        <a asp-controller="Home" asp-action="About">About</a>
+
                                     </li>
                                     <li class="dropdown">
-                                        <a href="services.html">Services</a>
-                                        <ul>
-                                            <li><a href="pet-service.html">Services 01</a></li>
-                                        </ul>
+                                        <a asp-controller="Home" asp-action="About">Home</a>
+
                                     </li>
                                     <li class="dropdown">
-                                        <a href="pets.html">Pets</a>
-                                        <ul>
-                                            <li><a href="buy-pet.html">Pets 01</a></li>
-                                            <li><a href="pet-detail.html">Pet Detail</a></li>
-                                            <li><a href="pet-profile.html">Pet Detail 02</a></li>
-                                        </ul>
+                                        <a asp-controller="Home" asp-action="About">Home</a>
+
                                     </li>
                                     <li class="dropdown">
-                                        <a href="#">Shop</a>
-                                        <ul>
-                                            <li><a href="shop.html">Shop</a></li>
-                                            <li><a href="pet-shop.html">Shop 01</a></li>
-                                            <li><a href="product-details.html">Product Detail</a></li>
-                                            <li><a href="pet-product.html">Product Detail 01</a></li>
-                                            <li><a href="cart.html">Cart</a></li>
-                                            <li><a href="pet-cart.html">Cart 01</a></li>
-                                            <li><a href="checkout.html">Check Out</a></li>
-                                            <li><a href="pet-checkout.html">Check Out 01</a></li>
-                                        </ul>
+                                        <a asp-controller="Home" asp-action="About">Home</a>
+
                                     </li>
                                     <li class="dropdown">
-                                        <a href="#">Pages</a>
-                                        <ul>
-                                            <li><a href="gallery.html">Gallery</a></li>
-                                            <li><a href="gallery-2.html">Gallery 02</a></li>
-                                            <li><a href="pet-gallery.html">Gallery 03</a></li>
-                                            <li><a href="pet-gallery2.html">Gallery 04</a></li>
-                                            <li><a href="404.html">Error</a></li>
-                                            <li><a href="pet-error.html">Error 01</a></li>
-                                            <li><a href="commingsoon.html">Comming Soon</a></li>
-                                            <li><a href="pet-coming.html">Comming Soon 01</a></li>
-                                            <li><a href="donation.html">Donation</a></li>
-                                            <li><a href="pet-donate.html">Donation 01</a></li>
-                                            <li><a href="appointment.html">Appointment</a></li>
-                                            <li><a href="pet-appoint.html">Appointment 01</a></li>
-                                        </ul>
+                                        <a asp-controller="Home" asp-action="About">Home</a>
+
                                     </li>
                                     <li class="dropdown">
-                                        <a href="#">Special Pages</a>
-                                        <ul>
-                                            <li><a href="jobs-list.html">Jobs</a></li>
-                                            <li><a href="pet-job.html">Jobs 01</a></li>
-                                            <li><a href="job-details.html">Job Detail</a></li>
-                                            <li><a href="job-profile.html">Job Detail 01</a></li>
-                                            <li><a href="login.html">Login</a></li>
-                                            <li><a href="pet-login.html">Login 01</a></li>
-                                            <li><a href="register.html">Register</a></li>
-                                            <li><a href="pet-register.html">Register 01</a></li>
-                                            <li><a href="team.html">Team</a></li>
-                                            <li><a href="pet-team.html">Team 01</a></li>
-                                            <li><a href="team-detail.html">Team Detail</a></li>
-                                            <li><a href="team-profile.html">Team Detail 01</a></li>
-                                            <li><a href="events.html">Events</a></li>
-                                            <li><a href="pet-event.html">Events 01</a></li>
-                                            <li><a href="event-single.html">Event Detail</a></li>
-                                            <li><a href="event-profile.html">Event Detail 01</a></li>
-                                            <li><a href="calculator.html">Calories Calculator</a></li>
-                                            <li><a href="pet-calorie.html">Calories Calculator 01</a></li>
-                                        </ul>
+                                        <a asp-controller="Home" asp-action="About">Home</a>
+
                                     </li>
                                     <li class="dropdown">
-                                        <a href="#">Blog</a>
-                                        <ul>
-                                            <li><a href="blog.html">Our Blog</a></li>
-                                            <li><a href="blog2.html">Blog 02</a></li>
-                                            <li><a href="pet-blog.html">Blog 03</a></li>
-                                            <li><a href="pet-blog2.html">Blog 04</a></li>
-                                            <li><a href="blog-leftsidebar.html">Blog Right Sidebar</a></li>
-                                            <li><a href="pet-blog-right.html">Blog Right Sidebar 01</a></li>
-                                            <li><a href="blog-single.html">Blog Single</a></li>
-                                            <li><a href="blog-profile.html">Blog Single 01</a></li>
-                                        </ul>
+                                        <a asp-controller="Home" asp-action="About">Home</a>
+
                                     </li>
                                     <li class="dropdown">
-                                        <a href="contact.html">Contact</a>
-                                        <ul>
-                                            <li><a href="contact2.html">Contact 02</a></li>
-                                            <li><a href="pet-contact.html">Contact 03</a></li>
-                                            <li><a href="pet-contact2.html">Contact 04</a></li>
-                                        </ul>
+                                        <a asp-controller="Home" asp-action="About">Home</a>
+
                                     </li>
                                 </ul>
                             </div>
@@ -395,6 +233,20 @@
                 </div>
             </div>
             <!--End Sticky Header-->
+            <div class="crumb">
+                <div class="container">
+                    <h1>
+                        About <span class="wow pulse" data-wow-delay="1s"> Pawrex </span>
+                    </h1>
+                    <div class="bg_tran">
+                        About PawreX
+                    </div>
+                    <p>
+                        <a href="index-5.html" title="Home">HOME</a>
+                        || <span>ABOUT</span>
+                    </p>
+                </div>
+            </div>
         </header>
 
 
@@ -416,7 +268,7 @@
                                 <div class="footer-column col-md-7 col-sm-6 col-xs-12">
                                     <div class="footer-widget logo-widget">
                                         <div class="logo">
-                                            <a href="index.html"><img src="images/footer-logo.png" alt="" /></a>
+                                            <a href="index.html"><img src="~/layoutasset/images/footer-logo.png" alt="" /></a>
                                         </div>
                                         <div class="text">
                                             This prodigiously grew tortoise charact stupidly pernicious
@@ -517,14 +369,14 @@
         </div>
         <div class="various-color clearfix">
             <div class="colors-list">
-                <span class="palate default-color active" data-theme-file="~layoutasset/css/color-themes/default-theme.css"></span>
-                <span class="palate green-color" data-theme-file="~layoutasset/css/color-themes/green-theme.css"></span>
-                <span class="palate blue-color" data-theme-file="~layoutasset/css/color-themes/blue-theme.css"></span>
-                <span class="palate orange-color" data-theme-file="~layoutasset/css/color-themes/orange-theme.css"></span>
-                <span class="palate purple-color" data-theme-file="~layoutasset/css/color-themes/purple-theme.css"></span>
-                <span class="palate teal-color" data-theme-file="~layoutasset/css/color-themes/teal-theme.css"></span>
-                <span class="palate brown-color" data-theme-file="~layoutasset/css/color-themes/brown-theme.css"></span>
-                <span class="palate redd-color" data-theme-file="~layoutasset/css/color-themes/redd-color.css"></span>
+                <span class="palate default-color active" data-theme-file="~/layoutasset/css/color-themes/default-theme.css"></span>
+                <span class="palate green-color" data-theme-file="~/layoutasset/css/color-themes/green-theme.css"></span>
+                <span class="palate blue-color" data-theme-file="~/layoutasset/css/color-themes/blue-theme.css"></span>
+                <span class="palate orange-color" data-theme-file="~/layoutasset/css/color-themes/orange-theme.css"></span>
+                <span class="palate purple-color" data-theme-file="~/layoutasset/css/color-themes/purple-theme.css"></span>
+                <span class="palate teal-color" data-theme-file="~/layoutasset/css/color-themes/teal-theme.css"></span>
+                <span class="palate brown-color" data-theme-file="~/layoutasset/css/color-themes/brown-theme.css"></span>
+                <span class="palate redd-color" data-theme-file="~/layoutasset/css/color-themes/redd-color.css"></span>
             </div>
         </div>
         <a href="#" class="purchase-btn">Purchase now $17</a>
