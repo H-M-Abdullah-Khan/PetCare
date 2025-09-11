@@ -132,62 +132,211 @@ namespace PetCare.Controllers.Veterinarian
         // Dashboard page for logged-in vets
         public IActionResult Dashboard()
         {
-            if (HttpContext.Session.GetInt32("VetId") == null)
+            int? vetId = HttpContext.Session.GetInt32("VetId");
+            if (vetId == null)
             {
                 return RedirectToAction(nameof(Login));
             }
-            ViewBag.VetCount = _context.Veterinarians.Count();
+
+            var vet = _context.Veterinarians.FirstOrDefault(v => v.VetId == vetId.Value);
+            if (vet == null)
+            {
+                return RedirectToAction(nameof(Login));
+            }
+
+            ViewBag.VetName = vet.Name ?? "Doctor";
+            ViewBag.Specialization = string.IsNullOrEmpty(vet.Specialization) ? "Specialist" : vet.Specialization;
+            ViewBag.CurrentDateTime = DateTime.Now.ToString("dddd, dd MMMM yyyy HH:mm");
+
             return View();
         }
 
-        // Details of specific vet by id
-        public IActionResult Details(int? id)
+        public IActionResult Profile()
         {
-            if (HttpContext.Session.GetInt32("VetId") == null)
-                return RedirectToAction(nameof(Login));
-            if (id == null)
-                return NotFound();
+            int? vetId = HttpContext.Session.GetInt32("VetId");
+            if (vetId == null) return RedirectToAction(nameof(Login));
 
-            var vet = _context.Veterinarians.FirstOrDefault(m => m.VetId == id);
-            if (vet == null)
-                return NotFound();
+            var vet = _context.Veterinarians.FirstOrDefault(v => v.VetId == vetId.Value);
+            if (vet == null) return RedirectToAction(nameof(Login));
 
             return View(vet);
         }
 
-        // Delete confirmation page
-        public IActionResult Delete(int? id)
+        // EditProfile GET
+        public IActionResult EditProfile()
         {
-            if (HttpContext.Session.GetInt32("VetId") == null)
-                return RedirectToAction(nameof(Login));
-            if (id == null)
-                return NotFound();
+            int? vetId = HttpContext.Session.GetInt32("VetId");
+            if (vetId == null) return RedirectToAction(nameof(Login));
 
-            var vet = _context.Veterinarians.FirstOrDefault(m => m.VetId == id);
-            if (vet == null)
-                return NotFound();
+            var vet = _context.Veterinarians.FirstOrDefault(v => v.VetId == vetId.Value);
+            if (vet == null) return RedirectToAction(nameof(Login));
 
             return View(vet);
         }
 
-        // POST: Delete confirmed
-        [HttpPost, ActionName("Delete")]
+        // EditProfile POST
+        [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        public IActionResult EditProfile(VetModel model)
         {
-            if (HttpContext.Session.GetInt32("VetId") == null)
-                return RedirectToAction(nameof(Login));
+            int? vetId = HttpContext.Session.GetInt32("VetId");
+            if (vetId == null) return RedirectToAction(nameof(Login));
 
-            var vet = await _context.Veterinarians.FindAsync(id);
-            if (vet != null)
+            if (!ModelState.IsValid) return View(model);
+
+            var vet = _context.Veterinarians.FirstOrDefault(v => v.VetId == vetId.Value);
+            if (vet == null) return RedirectToAction(nameof(Login));
+
+            // Update fields (exclude sensitive like password here)
+            vet.Name = model.Name;
+            vet.Email = model.Email;
+            vet.Specialization = model.Specialization;
+            // Add other fields as needed
+
+            _context.SaveChanges();
+
+            TempData["success"] = "Profile updated successfully!";
+            return RedirectToAction(nameof(Profile));
+        }
+
+        // ChangePassword GET
+        public IActionResult ChangePassword()
+        {
+            if (HttpContext.Session.GetInt32("VetId") == null) return RedirectToAction(nameof(Login));
+            return View();
+        }
+
+        // ChangePassword POST
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult ChangePassword(string currentPassword, string newPassword, string confirmPassword)
+        {
+            int? vetId = HttpContext.Session.GetInt32("VetId");
+            if (vetId == null) return RedirectToAction(nameof(Login));
+
+            if (string.IsNullOrEmpty(currentPassword) || string.IsNullOrEmpty(newPassword) || string.IsNullOrEmpty(confirmPassword))
             {
-                _context.Veterinarians.Remove(vet);
-                await _context.SaveChangesAsync();
-
-                TempData["success"] = "Veterinarian deleted successfully!";
+                ViewBag.Error = "All fields are required.";
+                return View();
             }
 
-            return RedirectToAction(nameof(Index));
+            if (newPassword != confirmPassword)
+            {
+                ViewBag.Error = "New password and confirmation do not match.";
+                return View();
+            }
+
+            var vet = _context.Veterinarians.FirstOrDefault(v => v.VetId == vetId.Value);
+            if (vet == null) return RedirectToAction(nameof(Login));
+
+            // Check current password
+            if (vet.PasswordHash != HashPassword(currentPassword))
+            {
+                ViewBag.Error = "Current password is incorrect.";
+                return View();
+            }
+
+            // Update password
+            vet.PasswordHash = HashPassword(newPassword);
+            _context.SaveChanges();
+
+            TempData["success"] = "Password changed successfully!";
+            return RedirectToAction(nameof(Profile));
+        }
+
+        // Appointments - all
+        public IActionResult Appointments()
+        {
+            int? vetId = HttpContext.Session.GetInt32("VetId");
+            if (vetId == null) return RedirectToAction(nameof(Login));
+
+            // Fetch appointments - implement your own model & fetching logic
+            var appointments = _context.Appointments.Where(a => a.VetId == vetId.Value).ToList();
+
+            return View(appointments);
+        }
+
+        // Upcoming appointments
+        public IActionResult Upcoming()
+        {
+            int? vetId = HttpContext.Session.GetInt32("VetId");
+            if (vetId == null) return RedirectToAction(nameof(Login));
+
+            var upcoming = _context.Appointments
+                .Where(a => a.VetId == vetId.Value && a.Date >= DateTime.Now && a.Status == AppointmentStatus.Scheduled)
+                .OrderBy(a => a.Date)
+                .ToList();
+
+            return View(upcoming);
+        }
+
+        // Completed appointments
+        public IActionResult Completed()
+        {
+            int? vetId = HttpContext.Session.GetInt32("VetId");
+            if (vetId == null) return RedirectToAction(nameof(Login));
+
+            var completed = _context.Appointments
+                .Where(a => a.VetId == vetId.Value && a.Status == AppointmentStatus.Completed)
+                .OrderByDescending(a => a.Date)
+                .ToList();
+
+            return View(completed);
+        }
+
+        // Cancelled appointments
+        public IActionResult Cancelled()
+        {
+            int? vetId = HttpContext.Session.GetInt32("VetId");
+            if (vetId == null) return RedirectToAction(nameof(Login));
+
+            var cancelled = _context.Appointments
+                .Where(a => a.VetId == vetId.Value && a.Status == AppointmentStatus.Cancelled)
+                .OrderByDescending(a => a.Date)
+                .ToList();
+
+            return View(cancelled);
+        }
+
+        // Pet Records
+        public IActionResult PetRecords()
+        {
+            int? vetId = HttpContext.Session.GetInt32("VetId");
+            if (vetId == null) return RedirectToAction(nameof(Login));
+
+            // Fetch pet records linked to vet's patients
+            var pets = _context.PetRecords
+                .Where(p => p.VetId == vetId.Value)
+                .ToList();
+
+            return View(pets);
+        }
+
+        // Schedule (Manage)
+        public IActionResult Manage()
+        {
+            int? vetId = HttpContext.Session.GetInt32("VetId");
+            if (vetId == null) return RedirectToAction(nameof(Login));
+
+            // Your logic to fetch/manage availability schedule
+            var schedule = _context.Schedules.Where(s => s.VetId == vetId.Value).ToList();
+
+            return View(schedule);
+        }
+
+        // Inbox / Messages
+        public IActionResult Inbox()
+        {
+            int? vetId = HttpContext.Session.GetInt32("VetId");
+            if (vetId == null) return RedirectToAction(nameof(Login));
+
+            // Fetch messages/notifications for this vet
+            var messages = _context.Messages
+                .Where(m => m.RecipientVetId == vetId.Value)
+                .OrderByDescending(m => m.DateSent)
+                .ToList();
+
+            return View(messages);
         }
 
         // Helper: Hash password with SHA256

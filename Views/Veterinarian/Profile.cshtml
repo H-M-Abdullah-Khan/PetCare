@@ -1,0 +1,73 @@
+﻿@model PetCare.Models.Veterinarian.Veterinarian
+
+@{
+    ViewData["Title"] = "My Profile";
+    Layout = "~/Views/Shared/_VeterinarianLayout.cshtml";
+}
+
+<div class="container my-5">
+    <div class="card shadow-sm mx-auto" style="max-width: 700px;">
+        <div class="card-header bg-primary text-white text-center">
+            <h3 class="mb-0">@ViewData["Title"]</h3>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-4">Name</dt>
+                <dd class="col-sm-8">@Model.Name</dd>
+
+                <dt class="col-sm-4">Email</dt>
+                <dd class="col-sm-8">@Model.Email</dd>
+
+                <dt class="col-sm-4">Specialization</dt>
+                <dd class="col-sm-8">@(!string.IsNullOrEmpty(Model.Specialization) ? Model.Specialization : "N/A")</dd>
+
+                <dt class="col-sm-4">Status</dt>
+                <dd class="col-sm-8">@Model.Status.ToString()</dd>
+
+                <dt class="col-sm-4">Phone</dt>
+                <dd class="col-sm-8">@(!string.IsNullOrEmpty(Model.Contact) ? Model.Contact : "N/A")</dd>
+
+                <dt class="col-sm-4">Address</dt>
+                <dd class="col-sm-8">@(!string.IsNullOrEmpty(Model.Address) ? Model.Address : "N/A")</dd>
+            </dl>
+
+            <div class="text-center mt-4">
+                <a asp-action="EditProfile" asp-controller="Veterinarian" class="btn btn-primary px-5">
+                    Edit Profile
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Show SweetAlert based on TempData
+        @if (TempData["Success"] != null)
+        {
+            <text>
+                    Swal.fire({
+                        icon: 'success',
+                        title: 'Success',
+                        text: '@TempData["Success"]',
+                        timer: 2500,
+                        timerProgressBar: true,
+                        showConfirmButton: false
+                    });
+            </text>
+        }
+        else if (TempData["Error"] != null)
+        {
+            <text>
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Error',
+                        text: '@TempData["Error"]',
+                        timer: 3000,
+                        timerProgressBar: true,
+                        showConfirmButton: false
+                    });
+            </text>
+        }
+    </script>
+}

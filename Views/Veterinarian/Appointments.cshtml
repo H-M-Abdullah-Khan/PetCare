@@ -1,0 +1,38 @@
+﻿@model PetCare.Models.Veterinarian.Appointment
+
+@{
+    ViewData["Title"] = "Make Appointment";
+    Layout = "~/Views/Shared/_VeterinarianLayout.cshtml";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="MakeAppointment" method="post">
+    <div class="mb-3">
+        <label asp-for="PetId" class="form-label">Select Pet</label>
+        <select asp-for="PetId" class="form-select" asp-items="ViewBag.Pets">
+            <option value="">-- Select a Pet --</option>
+        </select>
+        <span asp-validation-for="PetId" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Date" class="form-label">Appointment Date & Time</label>
+        <input asp-for="Date" type="datetime-local" class="form-control" />
+        <span asp-validation-for="Date" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Reason" class="form-label">Reason for Appointment</label>
+        <textarea asp-for="Reason" class="form-control" rows="3"></textarea>
+        <span asp-validation-for="Reason" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Schedule Appointment</button>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
