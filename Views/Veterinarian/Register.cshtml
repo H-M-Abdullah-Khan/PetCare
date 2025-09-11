@@ -1,0 +1,172 @@
+﻿@model PetCare.Models.Veterinarian.Veterinarian
+
+@{
+    ViewData["Title"] = "Veterinarian Registration";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Veterinarian Registration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="~/dashboard/assets/images/favicon.ico">
+    <link href="~/dashboard/assets/css/vendor.min.css" rel="stylesheet" />
+    <link href="~/dashboard/assets/css/app.min.css" rel="stylesheet" id="app-style" />
+    <link href="~/dashboard/assets/css/icons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <div class="auth-bg d-flex min-vh-100">
+        <div class="row g-0 justify-content-center w-100 m-xxl-5 px-xxl-4 m-3">
+            <div class="col-xxl-3 col-lg-5 col-md-6">
+
+                <a href="/" class="auth-brand d-flex justify-content-center mb-2">
+                    <img src="~/dashboard/assets/images/logo-dark.png" alt="logo" height="26">
+                </a>
+
+                <div class="card overflow-hidden text-center p-xxl-4 p-3 mb-0">
+
+                    <h4 class="fw-semibold mb-3 fs-18">Veterinarian Sign Up</h4>
+
+                    @if (TempData["Error"] != null)
+                    {
+                        <div class="alert alert-danger">@TempData["Error"]</div>
+                    }
+                    @if (TempData["Success"] != null)
+                    {
+                        <div class="alert alert-success">@TempData["Success"]</div>
+                    }
+                    @if (!ViewData.ModelState.IsValid)
+                    {
+                        <div class="alert alert-warning">
+                            <strong>Validation Errors:</strong>
+                            <ul>
+                                @foreach (var modelState in ViewData.ModelState.Values)
+                                {
+                                    foreach (var error in modelState.Errors)
+                                    {
+                                        <li>@error.ErrorMessage</li>
+                                    }
+                                }
+                            </ul>
+                        </div>
+                    }
+
+                    <form asp-action="Register" method="post" class="text-start mb-3" enctype="multipart/form-data">
+                        @Html.AntiForgeryToken()
+
+                        <!-- Name Field -->
+                        <div class="mb-3">
+                            <label asp-for="Name" class="form-label">Name</label>
+                            <input asp-for="Name" class="form-control" placeholder="Enter your name" />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+
+                        <!-- Email Field -->
+                        <div class="mb-3">
+                            <label asp-for="Email" class="form-label">Email</label>
+                            <input asp-for="Email" type="email" class="form-control" placeholder="Enter your email" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+
+                        <!-- Password Field -->
+                        <div class="mb-3" id="show_hide_password">
+                            <label asp-for="Password" class="form-label">Password</label>
+                            <div class="input-group">
+                                <input asp-for="Password" type="password" class="form-control" placeholder="Enter your password" />
+                                <a href="javascript:;" class="btn btn-outline-secondary" type="button">
+                                    <i class="bi bi-eye-slash-fill"></i>
+                                </a>
+                            </div>
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+
+                        <!-- Phone Number Field -->
+                        <div class="mb-3">
+                            <label asp-for="Contact" class="form-label">Phone</label>
+                            <input asp-for="Contact" class="form-control" placeholder="Enter your phone number" />
+                            <span asp-validation-for="Contact" class="text-danger"></span>
+                        </div>
+
+                        <!-- Address Field -->
+                        <div class="mb-3">
+                            <label asp-for="Address" class="form-label">Clinic Address</label>
+                            <input asp-for="Address" class="form-control" placeholder="Enter your clinic address" />
+                            <span asp-validation-for="Address" class="text-danger"></span>
+                        </div>
+
+                        <!-- Specialization Field -->
+                        <div class="mb-3">
+                            <label asp-for="Specialization" class="form-label">Specialization</label>
+                            <input asp-for="Specialization" class="form-control" placeholder="e.g., Surgery, Dermatology" />
+                            <span asp-validation-for="Specialization" class="text-danger"></span>
+                        </div>
+
+                        <!-- Terms Checkbox -->
+                        <div class="mb-3">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="termsCheck" required />
+                                <label class="form-check-label" for="termsCheck">
+                                    I agree to the <a href="#">Terms & Conditions</a>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="d-grid">
+                            <button class="btn btn-primary fw-semibold" type="submit">Sign Up</button>
+                        </div>
+                    </form>
+
+
+                    <p class="text-muted fs-14 mb-0">
+                        Already have an account?
+                        <a href="@Url.Action("Login", "Veterinarian")" class="fw-semibold text-danger ms-1">Login!</a>
+                    </p>
+                </div>
+
+                <p class="mt-4 text-center mb-0">
+                    &copy; @DateTime.Now.Year - PetCare Platform
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="~/dashboard/assets/js/vendor.min.js"></script>
+    <script src="~/dashboard/assets/js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js"></script>
+
+    <!-- Add SweetAlert2 for pop-ups -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        $(document).ready(function () {
+            // SweetAlert for pending/rejected status
+            var sweetAlertStatus = '@TempData["SweetAlert"]';
+            var sweetAlertTitle = '@TempData["SweetAlertTitle"]';
+            var sweetAlertText = '@TempData["SweetAlertText"]';
+
+            if (sweetAlertStatus === 'pending') {
+                Swal.fire({
+                    icon: 'info',
+                    title: sweetAlertTitle,
+                    text: sweetAlertText,
+                    confirmButtonText: 'OK'
+                });
+            } else if (sweetAlertStatus === 'rejected') {
+                Swal.fire({
+                    icon: 'error',
+                    title: sweetAlertTitle,
+                    text: sweetAlertText,
+                    confirmButtonText: 'OK'
+                });
+            }
+        });
+    </script>
+
+</body>
+</html>

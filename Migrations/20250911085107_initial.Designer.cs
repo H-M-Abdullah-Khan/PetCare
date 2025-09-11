@@ -12,8 +12,8 @@ using PetCare.Models.Veterinarian;
 namespace PetCare.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
-    [Migration("20250910200442_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20250911085107_initial")]
+    partial class initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -39,7 +39,6 @@ namespace PetCare.Migrations
                         .HasColumnType("nvarchar(100)");
 
                     b.Property<string>("AvailableSlots")
-                        .IsRequired()
                         .HasMaxLength(200)
                         .HasColumnType("nvarchar(200)");
 
@@ -64,8 +63,7 @@ namespace PetCare.Migrations
 
                     b.Property<string>("PasswordHash")
                         .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Specialization")
                         .IsRequired()

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\KNA\\Downloads\\PetCare\\PetCare.csproj": {}
+    "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\PetCare.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KNA\\Downloads\\PetCare\\PetCare.csproj": {
+    "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\PetCare.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KNA\\Downloads\\PetCare\\PetCare.csproj",
+        "projectUniqueName": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\PetCare.csproj",
         "projectName": "PetCare",
-        "projectPath": "C:\\Users\\KNA\\Downloads\\PetCare\\PetCare.csproj",
-        "packagesPath": "C:\\Users\\KNA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KNA\\Downloads\\PetCare\\obj\\",
+        "projectPath": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\PetCare.csproj",
+        "packagesPath": "C:\\Users\\std2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\std2\\Downloads\\PetCare\\PetCare\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\KNA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\std2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -84,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
