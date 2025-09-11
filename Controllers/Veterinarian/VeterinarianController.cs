@@ -162,41 +162,60 @@ namespace PetCare.Controllers.Veterinarian
             return View(vet);
         }
 
-        // EditProfile GET
+        // GET: EditProfile
         public IActionResult EditProfile()
         {
             int? vetId = HttpContext.Session.GetInt32("VetId");
-            if (vetId == null) return RedirectToAction(nameof(Login));
+            if (vetId == null)
+                return RedirectToAction("Login", "Veterinarian");
 
             var vet = _context.Veterinarians.FirstOrDefault(v => v.VetId == vetId.Value);
-            if (vet == null) return RedirectToAction(nameof(Login));
+            if (vet == null)
+                return RedirectToAction("Login", "Veterinarian");
+
+            // For security, clear password hash before sending to view (optional)
+            vet.PasswordHash = null;
 
             return View(vet);
         }
 
-        // EditProfile POST
+        // POST: EditProfile
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult EditProfile(VetModel model)
         {
             int? vetId = HttpContext.Session.GetInt32("VetId");
-            if (vetId == null) return RedirectToAction(nameof(Login));
+            if (vetId == null)
+                return RedirectToAction("Login", "Veterinarian");
 
-            if (!ModelState.IsValid) return View(model);
+            // Check email uniqueness
+            var emailExists = _context.Veterinarians
+                .Any(v => v.Email == model.Email && v.VetId != vetId.Value);
+            if (emailExists)
+            {
+                ModelState.AddModelError("Email", "Email already in use.");
+                return View(model);
+            }
+
+            if (!ModelState.IsValid)
+                return View(model);
 
             var vet = _context.Veterinarians.FirstOrDefault(v => v.VetId == vetId.Value);
-            if (vet == null) return RedirectToAction(nameof(Login));
+            if (vet == null)
+                return RedirectToAction("Login", "Veterinarian");
 
-            // Update fields (exclude sensitive like password here)
             vet.Name = model.Name;
             vet.Email = model.Email;
+            vet.Contact = model.Contact;
+            vet.Address = model.Address;
             vet.Specialization = model.Specialization;
-            // Add other fields as needed
+            vet.Experience = model.Experience;
+            vet.AvailableSlots = model.AvailableSlots;
 
             _context.SaveChanges();
 
-            TempData["success"] = "Profile updated successfully!";
-            return RedirectToAction(nameof(Profile));
+            TempData["Success"] = "Profile updated successfully!";
+            return RedirectToAction("EditProfile");
         }
 
         // ChangePassword GET
