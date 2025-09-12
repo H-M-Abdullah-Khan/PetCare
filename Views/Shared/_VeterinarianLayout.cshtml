@@ -72,7 +72,6 @@
                                 <span>
                                     <span class="mb-0 fw-semibold lh-base fs-15">Dr. @ViewBag.VetName!</span>
                                     <p class="my-0 fs-13 text-muted">@ViewBag.Specialization</p>
-
                                 </span>
 
                                 <i class="ri-arrow-down-s-line d-block sidenav-user-arrow align-middle"></i>
@@ -85,13 +84,13 @@
                             </div>
 
                             <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item">
+                            <a asp-controller="Veterinarian" asp-action="Profile" class="dropdown-item">
                                 <i class="ri-account-circle-line me-1 fs-16 align-middle"></i>
                                 <span class="align-middle">My Account</span>
                             </a>
 
                             <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item">
+                            <a asp-controller="Veterinarian" asp-action="EditProfile" class="dropdown-item">
                                 <i class="ri-settings-2-line me-1 fs-16 align-middle"></i>
                                 <span class="align-middle">Settings</span>
                             </a>
@@ -592,14 +591,14 @@
                                 </div>
 
                                 <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item">
+                                <a asp-controller="Veterinarian" asp-action="Profile" class="dropdown-item">
                                     <i class="ri-account-circle-line me-1 fs-16 align-middle"></i>
                                     <span class="align-middle">My Account</span>
                                 </a>
 
 
                                 <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item">
+                                <a asp-controller="Veterinarian" asp-action="EditProfile" class="dropdown-item">
                                     <i class="ri-settings-2-line me-1 fs-16 align-middle"></i>
                                     <span class="align-middle">Settings</span>
                                 </a>

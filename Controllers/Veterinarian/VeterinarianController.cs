@@ -66,6 +66,7 @@ namespace PetCare.Controllers.Veterinarian
         {
             if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password))
             {
+                TempData["SweetAlert"] = "missing_fields";
                 ViewBag.Error = "Email and password are required.";
                 return View();
             }
@@ -84,6 +85,7 @@ namespace PetCare.Controllers.Veterinarian
 
                     if (storedVet.PasswordHash != hashedPassword)
                     {
+                        TempData["SweetAlert"] = "invalid_credentials";
                         ViewBag.Error = "Invalid password. Please check your password.";
                         return View();
                     }
@@ -111,16 +113,19 @@ namespace PetCare.Controllers.Veterinarian
                 }
                 else
                 {
+                    TempData["SweetAlert"] = "invalid_credentials";
                     ViewBag.Error = "Email not found. Please check your email address.";
                     return View();
                 }
             }
             catch (System.Exception ex)
             {
+                TempData["SweetAlert"] = "login_error";
                 ViewBag.Error = $"Login error: {ex.Message}";
                 return View();
             }
         }
+
 
         // Logout clears session and redirects to login
         public IActionResult Logout()
@@ -221,12 +226,12 @@ namespace PetCare.Controllers.Veterinarian
                 vet.PasswordHash = model.Password; // yahan hashing lagani hogi
             }
 
+            _context.SaveChanges();
+
             ViewBag.VetName = vet.Name ?? "Doctor";
             ViewBag.Specialization = string.IsNullOrEmpty(vet.Specialization) ? "Specialist" : vet.Specialization;
             ViewBag.CurrentDateTime = DateTime.Now.ToString("dddd, dd MMMM yyyy HH:mm");
             TempData["Success"] = "Profile updated successfully!";
-
-            _context.SaveChanges();
 
             return RedirectToAction("EditProfile");
         }
@@ -235,10 +240,21 @@ namespace PetCare.Controllers.Veterinarian
         public IActionResult ChangePassword()
         {
             if (HttpContext.Session.GetInt32("VetId") == null) return RedirectToAction(nameof(Login));
+
+            int? vetId = HttpContext.Session.GetInt32("VetId");
+            if (vetId != null)
+            {
+                var vet = _context.Veterinarians.FirstOrDefault(v => v.VetId == vetId.Value);
+                if (vet != null)
+                {
+                    ViewBag.VetName = vet.Name ?? "Doctor";
+                    ViewBag.Specialization = string.IsNullOrEmpty(vet.Specialization) ? "Specialist" : vet.Specialization;
+                    ViewBag.CurrentDateTime = DateTime.Now.ToString("dddd, dd MMMM yyyy HH:mm");
+                }
+            }
             return View();
         }
 
-        // ChangePassword POST
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult ChangePassword(string currentPassword, string newPassword, string confirmPassword)
@@ -248,13 +264,13 @@ namespace PetCare.Controllers.Veterinarian
 
             if (string.IsNullOrEmpty(currentPassword) || string.IsNullOrEmpty(newPassword) || string.IsNullOrEmpty(confirmPassword))
             {
-                ViewBag.Error = "All fields are required.";
+                TempData["Error"] = "All fields are required.";
                 return View();
             }
 
             if (newPassword != confirmPassword)
             {
-                ViewBag.Error = "New password and confirmation do not match.";
+                TempData["Error"] = "New password and confirmation do not match.";
                 return View();
             }
 
@@ -264,21 +280,22 @@ namespace PetCare.Controllers.Veterinarian
             // Check current password
             if (vet.PasswordHash != HashPassword(currentPassword))
             {
-                ViewBag.Error = "Current password is incorrect.";
+                TempData["Error"] = "Current password is incorrect.";
                 return View();
             }
 
             // Update password
             vet.PasswordHash = HashPassword(newPassword);
 
+            _context.SaveChanges();
+
             ViewBag.VetName = vet.Name ?? "Doctor";
             ViewBag.Specialization = string.IsNullOrEmpty(vet.Specialization) ? "Specialist" : vet.Specialization;
             ViewBag.CurrentDateTime = DateTime.Now.ToString("dddd, dd MMMM yyyy HH:mm");
-            TempData["success"] = "Password changed successfully!";
-
-            _context.SaveChanges();
-            return RedirectToAction(nameof(Profile));
+            TempData["Success"] = "Password changed successfully!";
+            return RedirectToAction(nameof(ChangePassword));
         }
+
 
         // Appointments - all
         public IActionResult Appointments()
@@ -413,6 +430,7 @@ namespace PetCare.Controllers.Veterinarian
                 .Where(m => m.RecipientVetId == vetId.Value)
                 .OrderByDescending(m => m.DateSent)
                 .ToList(); 
+
             ViewBag.VetName = vet.Name ?? "Doctor";
             ViewBag.Specialization = string.IsNullOrEmpty(vet.Specialization) ? "Specialist" : vet.Specialization;
             ViewBag.CurrentDateTime = DateTime.Now.ToString("dddd, dd MMMM yyyy HH:mm");
@@ -432,5 +450,20 @@ namespace PetCare.Controllers.Veterinarian
                 return Convert.ToHexString(hashedBytes).ToLower();
             }
         }
+        private void SetVetViewBags()
+        {
+            int? vetId = HttpContext.Session.GetInt32("VetId");
+            if (vetId != null)
+            {
+                var vet = _context.Veterinarians.FirstOrDefault(v => v.VetId == vetId.Value);
+                if (vet != null)
+                {
+                    ViewBag.VetName = vet.Name ?? "Doctor";
+                    ViewBag.Specialization = string.IsNullOrEmpty(vet.Specialization) ? "Specialist" : vet.Specialization;
+                    ViewBag.CurrentDateTime = DateTime.Now.ToString("dddd, dd MMMM yyyy HH:mm");
+                }
+            }
+        }
+
     }
 }
