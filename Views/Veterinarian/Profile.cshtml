@@ -5,67 +5,188 @@
     Layout = "~/Views/Shared/_VeterinarianLayout.cshtml";
 }
 
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css" rel="stylesheet" />
+    <style>
+        /* Reset & base */
+        * {
+            box-sizing: border-box;
+        }
+         
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        /* Container */
+        .profile-container {
+            max-width: 700px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+        /* Header with gradient */
+        .profile-header {
+            background: linear-gradient(135deg, #4f46e5, #3b82f6);
+            padding: 2.5rem 2rem 4rem;
+            position: relative;
+            color: white;
+            text-align: center;
+        }
+
+            .profile-header h1 {
+                margin: 0;
+                font-size: 2rem;
+                font-weight: 700;
+                letter-spacing: 0.05em;
+            }
+        /* Avatar */
+        .avatar-wrapper {
+            position: absolute;
+            bottom: -64px;
+            left: 50%;
+            transform: translateX(-50%);
+            border: 5px solid white;
+            border-radius: 50%;
+            width: 128px;
+            height: 128px;
+            background: #e0e7ff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+            .avatar-wrapper img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        /* Content */
+        .profile-content {
+            padding: 5rem 2rem 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+        /* Definition list styling */
+        dl {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            row-gap: 1rem;
+            column-gap: 1.5rem;
+        }
+
+        dt {
+            font-weight: 600;
+            color: #4b5563;
+            align-self: center;
+        }
+
+        dd {
+            margin: 0;
+            font-size: 1.1rem;
+            color: #111827;
+            word-wrap: break-word;
+        }
+        /* Button */
+        .btn-primary {
+            display: inline-block;
+            background-color: #4f46e5;
+            color: white;
+            font-weight: 600;
+            padding: 0.75rem 2.5rem;
+            border-radius: 9999px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            font-size: 1.1rem;
+            user-select: none;
+            text-align: center;
+        }
+
+            .btn-primary:hover,
+            .btn-primary:focus {
+                background-color: #4338ca;
+                outline: none;
+            }
+        /* Center button */
+        .btn-wrapper {
+            text-align: center;
+            margin-top: 2rem;
+        }
+    </style>
 <div class="page-content">
-        <div class="card-header bg-primary text-white text-center">
-            <h3 class="mb-0">@ViewData["Title"]</h3>
-        </div>
-        <div class="card-body">
-            <dl class="row">
-                <dt class="col-sm-4">Name</dt>
-                <dd class="col-sm-8">@Model.Name</dd>
 
-                <dt class="col-sm-4">Email</dt>
-                <dd class="col-sm-8">@Model.Email</dd>
 
-                <dt class="col-sm-4">Specialization</dt>
-                <dd class="col-sm-8">@(!string.IsNullOrEmpty(Model.Specialization) ? Model.Specialization : "N/A")</dd>
+    <div class="profile-container" role="main" aria-label="Veterinarian Profile" style="max-width:700px; margin:2rem auto; background:#fff; border-radius:12px; box-shadow:0 8px 24px rgba(0,0,0,0.1); overflow:hidden; display:flex; flex-direction:column;">
+        <header class="profile-header" style="background: linear-gradient(135deg, #4f46e5, #3b82f6); padding:2.5rem 2rem 4rem; position:relative; color:white; text-align:center;">
+            <h1>@ViewData["Title"]</h1>
+            <div class="avatar-wrapper" aria-label="Profile picture" style="position:absolute; bottom:-64px; left:50%; transform:translateX(-50%); border:5px solid white; border-radius:50%; width:128px; height:128px; background:#e0e7ff; display:flex; align-items:center; justify-content:center; overflow:hidden; box-shadow:0 4px 12px rgba(0,0,0,0.15);">
+                <img src="https://cdn-icons-png.flaticon.com/512/147/147144.png" alt="Veterinarian profile picture" style="width:100%; height:100%; object-fit:cover;" />
+            </div>
+        </header>
 
-                <dt class="col-sm-4">Status</dt>
-                <dd class="col-sm-8">@Model.Status.ToString()</dd>
+        <section class="profile-content" style="padding:5rem 2rem 2rem; display:flex; flex-direction:column; gap:1.5rem;">
+            <dl style="display:grid; grid-template-columns:1fr 2fr; row-gap:1rem; column-gap:1.5rem;">
+                <dt style="font-weight:600; color:#4b5563; align-self:center;">Name</dt>
+                <dd style="margin:0; font-size:1.1rem; color:#111827; word-wrap:break-word;">@Model.Name</dd>
 
-                <dt class="col-sm-4">Phone</dt>
-                <dd class="col-sm-8">@(!string.IsNullOrEmpty(Model.Contact) ? Model.Contact : "N/A")</dd>
+                <dt style="font-weight:600; color:#4b5563; align-self:center;">Email</dt>
+                <dd style="margin:0; font-size:1.1rem; color:#111827; word-wrap:break-word;">@Model.Email</dd>
 
-                <dt class="col-sm-4">Address</dt>
-                <dd class="col-sm-8">@(!string.IsNullOrEmpty(Model.Address) ? Model.Address : "N/A")</dd>
+                <dt style="font-weight:600; color:#4b5563; align-self:center;">Specialization</dt>
+                <dd style="margin:0; font-size:1.1rem; color:#111827; word-wrap:break-word;">@(!string.IsNullOrEmpty(Model.Specialization) ? Model.Specialization : "N/A")</dd>
+
+                <dt style="font-weight:600; color:#4b5563; align-self:center;">Status</dt>
+                <dd style="margin:0; font-size:1.1rem; color:#111827; word-wrap:break-word;">@Model.Status.ToString()</dd>
+
+                <dt style="font-weight:600; color:#4b5563; align-self:center;">Phone</dt>
+                <dd style="margin:0; font-size:1.1rem; color:#111827; word-wrap:break-word;">@(!string.IsNullOrEmpty(Model.Contact) ? Model.Contact : "N/A")</dd>
+
+                <dt style="font-weight:600; color:#4b5563; align-self:center;">Address</dt>
+                <dd style="margin:0; font-size:1.1rem; color:#111827; word-wrap:break-word;">@(!string.IsNullOrEmpty(Model.Address) ? Model.Address : "N/A")</dd>
             </dl>
 
-            <div class="text-center mt-4">
-                <a asp-action="EditProfile" asp-controller="Veterinarian" class="btn btn-primary px-5">
+            <div style="text-align:center; margin-top:2rem;">
+                <a asp-action="EditProfile" asp-controller="Veterinarian" class="btn btn-primary px-5" role="button" aria-label="Edit Profile">
                     Edit Profile
                 </a>
             </div>
-        </div>
+        </section>
+    </div>
 </div>
-
-@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
-        // Show SweetAlert based on TempData
-        @if (TempData["Success"] != null)
-        {
-            <text>
-                    Swal.fire({
-                        icon: 'success',
-                        title: 'Success',
-                        text: '@TempData["Success"]',
-                        timer: 2500,
-                        timerProgressBar: true,
-                        showConfirmButton: false
-                    });
-            </text>
-        }
-        else if (TempData["Error"] != null)
-        {
-            <text>
-                    Swal.fire({
-                        icon: 'error',
-                        title: 'Error',
-                        text: '@TempData["Error"]',
-                        timer: 3000,
-                        timerProgressBar: true,
-                        showConfirmButton: false
-                    });
-            </text>
+        @* Passing TempData from server to JavaScript *@
+        var successMessage = '@TempData["Success"]';
+        var errorMessage = '@TempData["Error"]';
+
+        if (successMessage) {
+            Swal.fire({
+                icon: 'success',
+                title: 'Success',
+                text: successMessage,
+                timer: 2500,
+                timerProgressBar: true,
+                showConfirmButton: false,
+                position: 'top-end',
+                toast: true
+            });
+        } else if (errorMessage) {
+            Swal.fire({
+                icon: 'error',
+                title: 'Error',
+                text: errorMessage,
+                timer: 3000,
+                timerProgressBar: true,
+                showConfirmButton: false,
+                position: 'top-end',
+                toast: true
+            });
         }
     </script>
-}
+
