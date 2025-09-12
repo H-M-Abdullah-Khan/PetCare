@@ -106,7 +106,7 @@ namespace PetCare.Controllers.Veterinarian
                     HttpContext.Session.SetInt32("VetId", storedVet.VetId);
                     HttpContext.Session.SetString("VetName", storedVet.Name ?? string.Empty);
 
-                    TempData["success"] = "Login successful!";
+                    TempData["LoginSuccess"] = "Signed in successfully";
                     return RedirectToAction(nameof(Dashboard));
                 }
                 else
@@ -159,6 +159,9 @@ namespace PetCare.Controllers.Veterinarian
             var vet = _context.Veterinarians.FirstOrDefault(v => v.VetId == vetId.Value);
             if (vet == null) return RedirectToAction(nameof(Login));
 
+            ViewBag.VetName = vet.Name ?? "Doctor";
+            ViewBag.Specialization = string.IsNullOrEmpty(vet.Specialization) ? "Specialist" : vet.Specialization;
+            ViewBag.CurrentDateTime = DateTime.Now.ToString("dddd, dd MMMM yyyy HH:mm");
             return View(vet);
         }
 
@@ -176,6 +179,9 @@ namespace PetCare.Controllers.Veterinarian
             // For security, clear password hash before sending to view (optional)
             vet.PasswordHash = null;
 
+            ViewBag.VetName = vet.Name ?? "Doctor";
+            ViewBag.Specialization = string.IsNullOrEmpty(vet.Specialization) ? "Specialist" : vet.Specialization;
+            ViewBag.CurrentDateTime = DateTime.Now.ToString("dddd, dd MMMM yyyy HH:mm");
             return View(vet);
         }
 
@@ -188,7 +194,6 @@ namespace PetCare.Controllers.Veterinarian
             if (vetId == null)
                 return RedirectToAction("Login", "Veterinarian");
 
-            // Check email uniqueness
             var emailExists = _context.Veterinarians
                 .Any(v => v.Email == model.Email && v.VetId != vetId.Value);
             if (emailExists)
@@ -211,10 +216,18 @@ namespace PetCare.Controllers.Veterinarian
             vet.Specialization = model.Specialization;
             vet.Experience = model.Experience;
             vet.AvailableSlots = model.AvailableSlots;
+            if (!string.IsNullOrWhiteSpace(model.Password))
+            {
+                vet.PasswordHash = model.Password; // yahan hashing lagani hogi
+            }
+
+            ViewBag.VetName = vet.Name ?? "Doctor";
+            ViewBag.Specialization = string.IsNullOrEmpty(vet.Specialization) ? "Specialist" : vet.Specialization;
+            ViewBag.CurrentDateTime = DateTime.Now.ToString("dddd, dd MMMM yyyy HH:mm");
+            TempData["Success"] = "Profile updated successfully!";
 
             _context.SaveChanges();
 
-            TempData["Success"] = "Profile updated successfully!";
             return RedirectToAction("EditProfile");
         }
 
@@ -257,9 +270,13 @@ namespace PetCare.Controllers.Veterinarian
 
             // Update password
             vet.PasswordHash = HashPassword(newPassword);
-            _context.SaveChanges();
 
+            ViewBag.VetName = vet.Name ?? "Doctor";
+            ViewBag.Specialization = string.IsNullOrEmpty(vet.Specialization) ? "Specialist" : vet.Specialization;
+            ViewBag.CurrentDateTime = DateTime.Now.ToString("dddd, dd MMMM yyyy HH:mm");
             TempData["success"] = "Password changed successfully!";
+
+            _context.SaveChanges();
             return RedirectToAction(nameof(Profile));
         }
 
@@ -272,6 +289,9 @@ namespace PetCare.Controllers.Veterinarian
             // Fetch appointments - implement your own model & fetching logic
             var appointments = _context.Appointments.Where(a => a.VetId == vetId.Value).ToList();
 
+            ViewBag.VetName = vet.Name ?? "Doctor";
+            ViewBag.Specialization = string.IsNullOrEmpty(vet.Specialization) ? "Specialist" : vet.Specialization;
+            ViewBag.CurrentDateTime = DateTime.Now.ToString("dddd, dd MMMM yyyy HH:mm");
             return View(appointments);
         }
 
@@ -286,6 +306,9 @@ namespace PetCare.Controllers.Veterinarian
                 .OrderBy(a => a.Date)
                 .ToList();
 
+            ViewBag.VetName = vet.Name ?? "Doctor";
+            ViewBag.Specialization = string.IsNullOrEmpty(vet.Specialization) ? "Specialist" : vet.Specialization;
+            ViewBag.CurrentDateTime = DateTime.Now.ToString("dddd, dd MMMM yyyy HH:mm");
             return View(upcoming);
         }
 
@@ -299,7 +322,9 @@ namespace PetCare.Controllers.Veterinarian
                 .Where(a => a.VetId == vetId.Value && a.Status == AppointmentStatus.Completed)
                 .OrderByDescending(a => a.Date)
                 .ToList();
-
+            ViewBag.VetName = vet.Name ?? "Doctor";
+            ViewBag.Specialization = string.IsNullOrEmpty(vet.Specialization) ? "Specialist" : vet.Specialization;
+            ViewBag.CurrentDateTime = DateTime.Now.ToString("dddd, dd MMMM yyyy HH:mm");
             return View(completed);
         }
 
@@ -313,7 +338,9 @@ namespace PetCare.Controllers.Veterinarian
                 .Where(a => a.VetId == vetId.Value && a.Status == AppointmentStatus.Cancelled)
                 .OrderByDescending(a => a.Date)
                 .ToList();
-
+            ViewBag.VetName = vet.Name ?? "Doctor";
+            ViewBag.Specialization = string.IsNullOrEmpty(vet.Specialization) ? "Specialist" : vet.Specialization;
+            ViewBag.CurrentDateTime = DateTime.Now.ToString("dddd, dd MMMM yyyy HH:mm");
             return View(cancelled);
         }
 
@@ -327,7 +354,9 @@ namespace PetCare.Controllers.Veterinarian
             var pets = _context.PetRecords
                 .Where(p => p.VetId == vetId.Value)
                 .ToList();
-
+            ViewBag.VetName = vet.Name ?? "Doctor";
+            ViewBag.Specialization = string.IsNullOrEmpty(vet.Specialization) ? "Specialist" : vet.Specialization;
+            ViewBag.CurrentDateTime = DateTime.Now.ToString("dddd, dd MMMM yyyy HH:mm");
             return View(pets);
         }
 
@@ -339,10 +368,12 @@ namespace PetCare.Controllers.Veterinarian
 
             // Your logic to fetch/manage availability schedule
             var schedule = _context.Schedules.Where(s => s.VetId == vetId.Value).ToList();
-
+            ViewBag.VetName = vet.Name ?? "Doctor";
+            ViewBag.Specialization = string.IsNullOrEmpty(vet.Specialization) ? "Specialist" : vet.Specialization;
+            ViewBag.CurrentDateTime = DateTime.Now.ToString("dddd, dd MMMM yyyy HH:mm");
             return View(schedule);
         }
-
+        
         // Inbox / Messages
         public IActionResult Inbox()
         {
@@ -353,7 +384,10 @@ namespace PetCare.Controllers.Veterinarian
             var messages = _context.Messages
                 .Where(m => m.RecipientVetId == vetId.Value)
                 .OrderByDescending(m => m.DateSent)
-                .ToList();
+                .ToList(); 
+            ViewBag.VetName = vet.Name ?? "Doctor";
+            ViewBag.Specialization = string.IsNullOrEmpty(vet.Specialization) ? "Specialist" : vet.Specialization;
+            ViewBag.CurrentDateTime = DateTime.Now.ToString("dddd, dd MMMM yyyy HH:mm");
 
             return View(messages);
         }

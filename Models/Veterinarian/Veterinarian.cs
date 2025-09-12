@@ -35,12 +35,9 @@ namespace PetCare.Models.Veterinarian
 
         // Plain password for input only (not saved to DB)
         [NotMapped]
-        [Required(ErrorMessage = "Password is required")]
         [StringLength(100, MinimumLength = 6, ErrorMessage = "Password must be at least 6 characters")]
-        public string Password { get; set; }
+        public string? Password { get; set; }
 
-        // Hashed password stored in DB
-  
         public string? PasswordHash { get; set; }
 
         [StringLength(100)]
