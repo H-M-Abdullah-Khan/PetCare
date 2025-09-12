@@ -286,6 +286,10 @@ namespace PetCare.Controllers.Veterinarian
             int? vetId = HttpContext.Session.GetInt32("VetId");
             if (vetId == null) return RedirectToAction(nameof(Login));
 
+            var vet = _context.Veterinarians.FirstOrDefault(v => v.VetId == vetId.Value);
+            if (vet == null)
+                return RedirectToAction(nameof(Login));
+
             // Fetch appointments - implement your own model & fetching logic
             var appointments = _context.Appointments.Where(a => a.VetId == vetId.Value).ToList();
 
@@ -300,6 +304,10 @@ namespace PetCare.Controllers.Veterinarian
         {
             int? vetId = HttpContext.Session.GetInt32("VetId");
             if (vetId == null) return RedirectToAction(nameof(Login));
+
+            var vet = _context.Veterinarians.FirstOrDefault(v => v.VetId == vetId.Value);
+            if (vet == null)
+                return RedirectToAction(nameof(Login));
 
             var upcoming = _context.Appointments
                 .Where(a => a.VetId == vetId.Value && a.Date >= DateTime.Now && a.Status == AppointmentStatus.Scheduled)
@@ -318,6 +326,10 @@ namespace PetCare.Controllers.Veterinarian
             int? vetId = HttpContext.Session.GetInt32("VetId");
             if (vetId == null) return RedirectToAction(nameof(Login));
 
+            var vet = _context.Veterinarians.FirstOrDefault(v => v.VetId == vetId.Value);
+            if (vet == null)
+                return RedirectToAction(nameof(Login));
+
             var completed = _context.Appointments
                 .Where(a => a.VetId == vetId.Value && a.Status == AppointmentStatus.Completed)
                 .OrderByDescending(a => a.Date)
@@ -333,6 +345,10 @@ namespace PetCare.Controllers.Veterinarian
         {
             int? vetId = HttpContext.Session.GetInt32("VetId");
             if (vetId == null) return RedirectToAction(nameof(Login));
+
+            var vet = _context.Veterinarians.FirstOrDefault(v => v.VetId == vetId.Value);
+            if (vet == null)
+                return RedirectToAction(nameof(Login));
 
             var cancelled = _context.Appointments
                 .Where(a => a.VetId == vetId.Value && a.Status == AppointmentStatus.Cancelled)
@@ -350,6 +366,10 @@ namespace PetCare.Controllers.Veterinarian
             int? vetId = HttpContext.Session.GetInt32("VetId");
             if (vetId == null) return RedirectToAction(nameof(Login));
 
+            var vet = _context.Veterinarians.FirstOrDefault(v => v.VetId == vetId.Value);
+            if (vet == null)
+                return RedirectToAction(nameof(Login));
+
             // Fetch pet records linked to vet's patients
             var pets = _context.PetRecords
                 .Where(p => p.VetId == vetId.Value)
@@ -366,6 +386,10 @@ namespace PetCare.Controllers.Veterinarian
             int? vetId = HttpContext.Session.GetInt32("VetId");
             if (vetId == null) return RedirectToAction(nameof(Login));
 
+            var vet = _context.Veterinarians.FirstOrDefault(v => v.VetId == vetId.Value);
+            if (vet == null)
+                return RedirectToAction(nameof(Login));
+
             // Your logic to fetch/manage availability schedule
             var schedule = _context.Schedules.Where(s => s.VetId == vetId.Value).ToList();
             ViewBag.VetName = vet.Name ?? "Doctor";
@@ -379,6 +403,10 @@ namespace PetCare.Controllers.Veterinarian
         {
             int? vetId = HttpContext.Session.GetInt32("VetId");
             if (vetId == null) return RedirectToAction(nameof(Login));
+
+            var vet = _context.Veterinarians.FirstOrDefault(v => v.VetId == vetId.Value);
+            if (vet == null)
+                return RedirectToAction(nameof(Login));
 
             // Fetch messages/notifications for this vet
             var messages = _context.Messages
