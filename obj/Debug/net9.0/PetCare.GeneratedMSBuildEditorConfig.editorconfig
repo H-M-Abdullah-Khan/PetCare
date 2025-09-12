@@ -52,8 +52,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmV0ZXJpbmFyaWFuXEFwcG9pbnRtZW50cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/std2/Downloads/PetCare/PetCare/Views/Veterinarian/Cancelled.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmV0ZXJpbmFyaWFuXENhbmNlbGxlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/std2/Downloads/PetCare/PetCare/Views/Veterinarian/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmV0ZXJpbmFyaWFuXENoYW5nZVBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/std2/Downloads/PetCare/PetCare/Views/Veterinarian/Completed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmV0ZXJpbmFyaWFuXENvbXBsZXRlZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/std2/Downloads/PetCare/PetCare/Views/Veterinarian/Dashboard.cshtml]
@@ -64,8 +72,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmV0ZXJpbmFyaWFuXEVkaXRQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/std2/Downloads/PetCare/PetCare/Views/Veterinarian/Inbox.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmV0ZXJpbmFyaWFuXEluYm94LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/std2/Downloads/PetCare/PetCare/Views/Veterinarian/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmV0ZXJpbmFyaWFuXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/std2/Downloads/PetCare/PetCare/Views/Veterinarian/Manage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmV0ZXJpbmFyaWFuXE1hbmFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/std2/Downloads/PetCare/PetCare/Views/Veterinarian/PetRecords.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmV0ZXJpbmFyaWFuXFBldFJlY29yZHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/std2/Downloads/PetCare/PetCare/Views/Veterinarian/Profile.cshtml]
@@ -74,6 +94,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/std2/Downloads/PetCare/PetCare/Views/Veterinarian/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmV0ZXJpbmFyaWFuXFJlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/std2/Downloads/PetCare/PetCare/Views/Veterinarian/Upcoming.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmV0ZXJpbmFyaWFuXFVwY29taW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/std2/Downloads/PetCare/PetCare/Views/_ViewImports.cshtml]
